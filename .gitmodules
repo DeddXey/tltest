@@ -1,0 +1,6 @@
+[submodule "tl"]
+	path = tl
+	url = git@github.com:DeddXey/tl.git
+[submodule "doctest"]
+	path = doctest
+	url = https://github.com/onqtam/doctest.git
