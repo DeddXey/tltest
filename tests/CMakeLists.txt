@@ -9,15 +9,17 @@ target_sources(tests
         fifo_tst
         utils_tst
         statcnt_tst
+        delayer_tst
         )
 
 
 target_include_directories(tests PUBLIC
         "../doctest/doctest/"
+        "../tl/include"
         )
 
 target_link_libraries(tests
-        tl
+#        tl
         doctest
 #        pthread
         )

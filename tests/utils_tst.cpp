@@ -7,8 +7,8 @@
 TEST_CASE ("Utility::isFloatingSame") {
 
 
-            CHECK(isFloatingSame(1.0f / 3.0f, 2.0f / 6.0f));
-            CHECK(!isFloatingSame(1.0f / 3.0f, 0.3333333f));
+            CHECK(tl::isFloatingSame(1.0f / 3.0f, 2.0f / 6.0f));
+            CHECK(!tl::isFloatingSame(1.0f / 3.0f, 0.3333333f));
 }
 
 //----------------------------------------------------
